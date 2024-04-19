@@ -1,0 +1,176 @@
+body{
+    background: url(keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    margin: -1%;
+    padding: 0%;
+    
+
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    padding: 1%;
+    
+    backdrop-filter: 30%;
+    justify-content: space-between;
+    
+}
+.elements{
+    display: flex;
+    justify-content:flex-start;
+    
+    width: 30%;
+
+
+}
+.logo{
+    object-fit: scale-down;
+}
+.list{
+    list-style-type: none;
+    margin: 2%;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 3%;
+    border-radius: 10%;
+
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.middle{
+ display: grid;
+
+    justify-content: space-evenly;
+    justify-items: center;
+    /* align-content: space-evenly; */
+    /* align-items: center; */
+  
+ 
+}
+#overview{
+    width: 50%;
+    color: white;
+
+}
+#heading{
+    color: white;
+    margin: 9%;
+    
+}
+#details
+{
+  display: flex;
+  margin: 3%;
+  
+  border-radius: 10%;
+  justify-content: space-between;
+  width: 50%;
+
+}
+.details
+{
+    color: white;
+    border: 1px solid white;
+    padding: 10%;
+    border-radius: 10%;
+}
+.bottom{
+    background-color: rgba(0, 0, 0, 0.511);
+}
+.container{
+    color: rgb(248, 237, 237);
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10%;
+    padding: 49px 2px;
+    width: 300%;
+    border-radius: 10px;
+    
+}
+.formgroup input{
+    text-align: center;
+    /* display: block; */
+    display: flex;
+    justify-content: stretch;
+    width: 80%;
+    margin: 5%;
+    padding: 4%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    background:none;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.container h1{
+    text-align: center;
+}
+.btn{
+    display: block;
+    /* font-family: cursive; */
+    border: 2px solid white;
+    color: white;
+    /* background-color: black; */
+    margin: 2%;
+    padding: 1%;
+    width: 29%;
+    color: white;
+    background: none;
+}
+#login{
+    font-size: smaller;
+    text-align: center;
+}
+#AboutWebsite{
+    width: 100%;
+
+    text-align: center;
+}
+#AboutHeading{
+    
+    color: rgb(248, 237, 237);
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10%;
+    padding: 49px 2px;
+    width: 84%;
+    border-radius: 10px;
+    
+}
+#AboutHeading h1{
+    text-align: center;
+}
+#navbar{
+    display: none;
+    
+}
+@media only screen and (max-width: 900px){
+    .navbar{
+        display: none;
+
+    }
+    #navbar
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.344);
+        margin: 0;
+        padding: 0;
+    }
+    #details{
+        display: block;
+        
+    }
+    .details{
+        margin-top: 2%;
+        border-radius: 0%;
+        height: fit-content;
+    }
+}
+    
