@@ -58,9 +58,46 @@ body {
     object-fit: scale-down;
     width: 4%;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#search{
+    width:2%;
+    background-color: #bbbbbb;
+}
+.middle {
+    display: grid;
+    
+    justify-content: space-evenly;
+    justify-items: center;
+    /* align-content: space-evenly; */
+    /* align-items: center; */
+    margin-bottom: 20%;
+    margin-top: 15%;
+    
+    
+}
+.picture{
+    height: 100%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+}
+.Info{
+    /* margin: ; */
+    color: white;
+
+}
+textarea{
+    background:none;
+    border: none;
+}
+
 .bottom{
     width: 100%;
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.511);
 }
 .container {
     width: 99%;
