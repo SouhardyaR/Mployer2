@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-    <link rel="stylesheet" href="styles/signup.css">
+    <style></style>
+    <title>Commom Html</title>
 </head>
+<link rel="stylesheet" href="styles/index.css">
+
 <body>
+
     <div class="top">
         <nav class="navbar">
             <img class="logo" src="./assests/images/logo.svg" alt="image">
             <ul class="elements">
-
-                <button class="list"><img src="" alt="image"></button>
+                <!-- <button class="search" ><img id="search" src="./assests/images/search-button.svg" alt="image"></button -->
                 <button class="list" id="Home"><a href="./index.html">Home</a></button>
                 <button class="list" id="About"><a href="./about.html">About</a></button>
                 <button class="list" id="Login"><a href="./login.html">Login</a></button>
                 <button class="list" id="SignUp"><a href="./signup.html">Sign Up</a></button>
             </ul>
+
+        </nav>
+        <nav id="navbar">
+            <img src="" alt="image" class="logo">
+            <img src="" alt="image" class="dropdown">
+            <ul id="dropitems">
+
+                <li class="list" id="Home"><a id="list " href="./index.html">Home</a></li>
+                <li class="list" id="About"><a id="list " href="./about.html">About</a></li>
+                <li class="list" id="Login"><a id="list " href="./login.html">Login</a></li>
+                <li class="list" id="SignUp"><a id="list " href="./signup.html">Sign Up</a></li>
+            </ul>
+
         </nav>
     </div>
     <div class="middle">
-        <div class="container">
-            
-            <h1>New Sign-up</h1>
-            <form action="noaction.php">
-                <div class="formgroup">
-                    <span class="name">Name</span>
-                    <input type="text" name="" placeholder="">
-                </div>
-                <div class="formgroup">
-                    <span class="name">Email</span>
-                    <input type="text" name="" placeholder="">
-                </div>
-                <div class="formgroup">
-                    <span class="name">Institution</span>
-                    <input type="text" name="" placeholder="">
-                </div>
-                <div class="formgroup">
-                    <span class="name">Password</span>
-                    <input type="text" name="" placeholder="">
-                </div>
-                <div class="formgroup">
-                    <span class="name">Confirm Password</span>
-                    <input type="text" name="" placeholder="">
-                </div>
-                <button class="btn">Submit</button>
-                <a class="btn" id="login" href="login.html">Have an Account?Login</a>
-            </form>
+        <h1 id="heading">Welcome To Mployer</h1>
+        <p id="overview">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate cum nesciunt, reiciendis
+            cumque praesentium dicta molestias dolorum ipsum quod ex accusantium facere, quibusdam porro blanditiis eius
+            alias? Itaque, eos hic.</p>
+        <div id="details">
+            <div class="details">text</div>
+            <div class="details">text</div>
+            <div class="details">text</div>
+        </div>
     </div>
     <div class="bottom">
-        <div class="container">
+        
+            <div class="container">
                 <div class="row">
                   <div class="footer-col">
                     <h4>company</h4>
@@ -76,7 +74,8 @@
                   </div>
                 </div>
                </div>
-    
-</div>
+        
+    </div>
 </body>
+
 </html>

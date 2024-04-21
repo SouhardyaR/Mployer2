@@ -1,6 +1,6 @@
 
 body {
-    background: url(keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.avif);
+    background: url("../assests/images/bg.avif");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
@@ -115,18 +115,6 @@ a {
     background-color: rgba(0, 0, 0, 0.511);
 }
 
-.container {
-    color: rgb(248, 237, 237);
-    border: 2px solid rgb(255, 255, 255);
-    margin: 10%;
-    padding: 49px 2px;
-    width: 300%;
-    border-radius: 10px;
-
-}
-
-
-
 .formgroup input {
     text-align: center;
     /* display: block; */
@@ -143,46 +131,6 @@ a {
 }
 
 .container h1 {
-    text-align: center;
-}
-
-.btn {
-    display: block;
-    /* font-family: cursive; */
-    border: 2px solid white;
-    color: white;
-    /* background-color: black; */
-    margin: 2%;
-    padding: 1%;
-    width: 29%;
-    color: white;
-    background: none;
-}
-
-#login {
-    font-size: smaller;
-    text-align: center;
-}
-
-#AboutWebsite {
-    width: 100%;
-
-    text-align: center;
-}
-
-#AboutHeading {
-
-    color: rgb(248, 237, 237);
-    border: 2px solid rgb(255, 255, 255);
-    margin: 10%;
-    padding: 49px 2px;
-    width: 84%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4% 8% 0 rgba(0, 0, 0, 0.2);
-}
-
-#AboutHeading h1 {
     text-align: center;
 }
 
@@ -237,6 +185,8 @@ a {
 .container {
     width: 99%;
     margin: 0;
+    padding: 49px 2px;
+    border-radius: 10px;
 }
 
 .row {
@@ -262,7 +212,7 @@ ul {
 }
 
 .footer-col h4 {
-    font-size: 15px;
+    font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -286,7 +236,7 @@ ul {
 }
 
 .footer-col ul li a {
-    font-size: 12px;
+    font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;

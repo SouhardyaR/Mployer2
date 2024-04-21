@@ -1,6 +1,6 @@
 
 body {
-    background: url(keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.avif);
+    background: url(../assests/images/bg.avif);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0%;
@@ -331,4 +331,7 @@ ul {
     .footer-col {
         width: 100%;
     }
+}
+#err-msg{
+    opacity: 0;
 }
